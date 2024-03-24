@@ -98,14 +98,14 @@
 % Contact Information
 \newcommand{\nametitle}[2]{%
     { \Huge #1 \textsc{#2} }
-
+    
     \medskip
 }
 \newcommand{\contactseparator}{
     \quad\textbar\quad\hspace{1pt}
 }
 \newcommand{\email}[1]{\faIcon{envelope} \href{mailto:#1}{#1}}
-\newcommand{\phone}[1]{\faIcon{phone-alt} \href{tel:+1-#1}{#1}}
+\newcommand{\phone}[1]{\faIcon{phone-alt} \href{tel:#1}{#1}}
 \newcommand{\github}[1]{\faIcon{github} \href{https://github.com/#1/}{#1}}
 \newcommand{\linkedin}[1]{\faIcon{linkedin} \href{https://linkedin.com/in/#1/}{#1}}
 \newcommand{\location}[1]{\faIcon{map-marker-alt} #1}
