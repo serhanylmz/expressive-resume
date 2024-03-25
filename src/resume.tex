@@ -1,4 +1,5 @@
 \documentclass{ExpressiveResume}
+\usepackage{xcolor}
 
 % ----- Resume -----
 \begin{document}
@@ -13,15 +14,17 @@
     linkedin=yilmaz-serhan,
     github=serhanylmz,
     city=,
-    state=,
+    state= serhanyilmaz.org,
     qrcode=,
     fixobjectivespacing=true
 ]
 
-\objective{A CS student with a focus on NLP, Machine
-    Learning and AI with many years of work and research
-    experience around the world seeking opportunities to develop
-    NLP and Computer Vision applications at NVIDIA.}
+
+% \objective{A CS student with a focus on NLP, Machine
+%     Learning and AI with many years of work and research
+%     experience around the world seeking opportunities to develop
+%     NLP and Computer Vision applications at NVIDIA.}
+
 
 % ----- Education -----
 \section{Education}
@@ -34,7 +37,7 @@
     \achievement{
         Ranked \textbf{top 0.02\%} among 2.9 million students in the National University Entrance Exam.
     }
-}
+}{}
 
 % ----- Work Experience -----
 \section{Work Experience}
@@ -44,103 +47,108 @@
         Working with Prof. Kemal Oflazer on developing advanced question generation and paraphrasing algorithms.
     }
     \achievement{
-        Developing refined training methods with feedback signals for semantic understanding in paraphrasing.
+        Employing transfer learning techniques to fine-tune \textbf{T5 and BERT} models for semantic understanding in paraphrasing.
     }
     \achievement{
-        Employing transfer learning techniques to fine-tune T5 and BERT models for an encoder-decoder architecture.
+        Achieving \textbf{91\% accuracy} in generating high-quality, diverse research questions from input data.
     }
     \achievement{
-        Achieved 91\% accuracy in generating high-quality, diverse research questions from input data.
+        Evaluating generated questions using the BLEU and METEOR metrics, scoring in the \textbf{top 10\%} compared to existing benchmarks.
     }
-    \achievement{
-        Evaluated generated questions using metrics like BLEU and METEOR, scoring in the top 10\% compared to existing benchmarks.
-    }
-}
+}{Pittsburgh, PA (Remote)}
 
-\experience{Part-Time NLP R\&D Engineering Intern}{Yapi Kredi Bank}{Oct 2023}{Present}{
+\experience{NLP R\&D Engineering Intern}{Yapi Kredi
+    Bank}{Oct 2023}{Present}{
     \achievement{
-        Improving document interpretation algorithms with OCR-free Donut Transformers.
+        Improving document interpretation algorithms with OCR-free \textbf{Donut Transformers}.
     }
     \achievement{
-        Fine-tuned BERT and BERTurk language models, cutting annotation effort through transfer learning techniques.
+        Fine-tuning \textbf{BERT and BERTurk} language models, cutting annotation effort through transfer learning techniques.
     }
     \achievement{
-        Worked with cross-functional teams to translate business requirements into effective NLP solutions.
+        Working with cross-functional teams to translate business requirements into effective NLP solutions.
     }
-}
+}{Istanbul, Turkey}
 
 \experience{Club Founder/President}{kAi Sabanci}{Mar 2023}{Present}{
     \achievement{
-        Founded, led, and grew kAi Sabanci, Sabanci University's AI and ML club, attracting \textbf{600+ members with 80\% participation rate} in under 1 year.
+        \textbf{Founding, leading, and growing} kAi Sabanci, Sabanci University's AI and ML
+        club, attracting \textbf{600+ members with 80\% participation rate}
+        in under 1 year. Got kAi to become the \textbf{founding member} of the
+        \href{https://developer.nvidia.com/student-network}{
+            \color {blue} \textbf{\textit{\underline{NVIDIA Student Network}}}}.
     }
     \achievement{
-        Organized workshops and served as a voluntary TA, delivering sessions from NVIDIA DLI in Gen AI, NLP, Conversational AI, Machine Learning, Deep Learning and CUDA with instructors from around the world.
+        Organized workshops and served as a \textbf{voluntary TA}, delivering sessions from the \textbf{NVIDIA DLI} in \textbf{Gen AI, NLP, Conversational AI} with \tech{Riva}, \textbf{Machine Learning, Deep Learning and CUDA} with instructors from around the world.
     }
     \achievement{
-        Developed and managed several key projects in collaboration with academic faculty including the \href{https://kaisabanci.com/}{ \textbf{\textit{\underline{kAi Sabanci website}}}}, our RAG-enabled Chatbot -ChatSU- as a service, 3D campus modeling with NeRF and campus cat identification with Jetson Nano.
+        Developed and managed several key projects in collaboration with
+        academic faculty including the \href{https://kaisabanci.com/}{
+            \color {blue} \textbf{\textit{\underline{kAi Sabanci website}}}},
+        our  \href{https://kaisabanci.com/chatSU}{
+            \color {blue} \textbf{\textit{\underline{RAG-enabled Chatbot
+                        -ChatSU-}}}}\, campus modeling
+        using \href{https://kaisabanci.com/projects}{
+            \color {blue} \textbf{\textit{\underline{NeRF for Omniverse}}}} and \href{https://kaisabanci.com/projects}{
+            \color {blue} \textbf{\textit{\underline{cat identification with Jetson Nano}}}}.
     }
     \achievement{
-        Organized panels on the AI revolution and transformation across the industry and academia, with notable guests from Stanford, Caltech, NVIDIA including \textbf{Simon See}.
-    }
-    \achievement{
-        Held watchparties and gatherings for international developer conferences including GTC.
-    }
-    \achievement{
-        Got kAi to become the \textbf{first} member of the \textbf{NVIDIA Student Network} in Europe. Received content \& material support from NVIDIA, \textbf{met with Jensen Huang in Stockholm.}
+        Organized panels on the AI revolution and transformation across the
+        industry and academia, with notable guests from Stanford, Caltech \&
+        NVIDIA including \textbf{Simon See}. Held watchparties and gatherings for international developer conferences including \textbf{GTC}.
     }
     \achievement{
         \textbf{Selected for the NVIDIA Student Spotlight series} for outstanding perseverance, dedication and achievement.
     }
-}
+}{Istanbul, Turkey}
 
 
-\experience{Summer@EPFL Intern}{EPFL - École Polytechnique Fédérale de Lausanne}{Jun 2023}{Sep 2023}{
+\experience{Summer@EPFL Intern}{EPFL Lausanne}{Jun 2023}{Sep 2023}{
     \achievement{
-        Optimized gradient aggregation functions using PyTorch and CUDA to work up to 2200\% faster.
+        Started the
+        \href{https://www.serhanyilmaz.org/Project-Charisius/library/getting_started.html}{\color {blue}
+            \textbf{\textit{\underline{Project Charisius}}}}.
+        Optimized gradient aggregation functions using PyTorch and CUDA to
+        work up to \textbf{2200\%} faster.
     }
     \achievement{
-        Restructured the ML pipeline, added more functionality and modulized the code.
+        \textbf{Published the charisius library}, for accelerated
+        Statistics and Distributed ML applications, up to \textbf{96\%}
+        reduction in the runtime.
     }
     \achievement{
-        Published a Python library for high-performance Distributed \& Federated ML applications.
+        \textbf{Created 2 webpages:} the documentation of the library and another
+        one with Flask backend to publish benchmarking leaderboards.
     }
-    \achievement{
-        Created a Webpage with Flask backend to publish benchmarking leaderboards.
-    }
-}
+}{Lausanne, Switzerland}
 
-\experience{Undergraduate Teaching Assistant}{Sabanci University}{Sep 2022}{Jan 2023}{
+\experience{Undergraduate Teaching Assistant}{Sabanci
+    University}{Sep 2022}{Jan 2023}{
     \achievement{
         Wrote homework assignments for students and held weekly recitation and office hours.
     }
-}
+}{Istanbul, Turkey}
 
 \experience{Undergraduate Research Assistant}{Boston University}{Jun 2022}{Sep 2022}{
     \achievement{
         Studied Threat Modeling and Component Design for large-scale server systems under the supervision of Prof. Rabia Tugce Yazicigil.
     }
     \achievement{
-        Developed a helper tool using C++ which provided up to 336 different combinations to design secure servers for resource-intensive applications.
+        Developed a tool using C++, providing up to \textbf{336} different combinations to design secure servers for resource-intensive applications.
     }
-}
+}{Boston, MA (Remote)}
 
 \experience{Intern}{Pharus Tech}{Jul 2020}{Sep 2020}{
     \achievement{
-        Explored data from the ESCO dataset, including 3008 occupations and 13890 skills.
+        Explored, visualized and processed data from the ESCO dataset, including \textbf{3008} occupations and \textbf{13890} skills.
     }
-    \achievement{
-        Visualized data relating to skill sets required for jobs using Pandas and NumPy.
-    }
-}
+}{Stockholm, Sweden (Remote)}
 
 \experience{Undergraduate Research Assistant}{Koc University}{Jun 2020}{Jul 2020}{
     \achievement{
-        Worked with Prof. Hakan Urey to train a machine learning model with TensorFlow on a dataset of \textbf{600} retinal images for cataract detection.
+        Worked with Prof. Hakan Urey to train a machine learning model on a dataset of \textbf{600} retinal images for cataract detection.
     }
-    \achievement{
-        Wrote a comprehensive final report and delivered a presentation about the project's methodology and findings.
-    }
-}
+}{Istanbul, Turkey}
 
 % ----- Awards -----
 \section{Awards}
@@ -148,124 +156,36 @@
     \achievement{
         Selected for the NVIDIA Student Spotlight series for outstanding perseverance, dedication and achievement.
     }
-}
+}{}
 \experience{Sakip Sabanci Award for Outstanding Success}{Sabanci University}{Sep 2022}{Present}{
     \achievement{
         Ranked \textbf{top 4\%} among the students in my term.
     }
-}
+}{}
 \experience{Innovation in Crisis}{The Royal Swedish Academy of Engineering Sciences}{May 2020}{Present}{
     \achievement{
-        Young Innovation in Times of Crisis Award for ranking in the \textbf{1st place} among all projects.
+        Received the Young Innovation in Times of Crisis Award as team United in
+        Crisis, ranking in the \textbf{1st place} among all projects. Developing an algorithm to match workers and employers in the Covid-19 outbreak.
     }
-}
+}{}
 \experience{Membership Award}{The New York Academy of Sciences}{Sep 2019}{Present}{
     \achievement{
-        Young Member of the New York Academy of Sciences Award for admission into "The Junior Academy" program with an acceptation rate of
+        Admitted into "The Junior Academy" program with an acceptation rate of
         \textbf{8\%}.
     }
-}
-
-% ----- Projects -----
-\section{Projects}
-
-\experience{Combating Covid-19}{New York Academy of Sciences}{Jan 2020}{May 2020}{
-    \achievement{
-        Developed and visualized an algorithm to match job seekers with job providers in the Covid-19 outbreak.
-    }
-    \achievement{
-        \textbf{Awarded 1st Place} by the Royal Swedish Academy of Engineering Sciences.
-    }
-}
-
-\experience{Advanced Question Generation and Paraphrasing}{Carnegie Mellon University}{Dec 2023}{Present}{
-    \achievement{
-        Worked with Prof. Kemal Oflazer to develop algorithms for generating and paraphrasing research questions.
-    }
-    \achievement{
-        Employed transfer learning techniques to fine-tune T5 and BERT models, achieving 91\% accuracy in generating diverse questions.
-    }
-}
-
-\experience{Project Charisius for Federated ML}{EPFL Lausanne}{Jun 2023}{Sep 2023}{
-    \achievement{
-        Optimized gradient aggregation functions using PyTorch and CUDA for a speed increase of up to 2200\%.
-    }
-    \achievement{
-        Restructured the ML pipeline for added functionality and modularity.
-    }
-    \achievement{
-        Published a Python library for distributed and federated ML applications.
-    }
-}
-
-\experience{Project Sanity Check}{Sabanci University}{Feb 2023}{May 2023}{
-    \achievement{
-        Developed an education index for all provinces of Turkey using machine learning to measure the expected education indices for the year 2020.
-    }
-    \achievement{
-        Compared the predicted indices with the actual education index from 2020 to assess the impact of the Covid-19 pandemic on education in different Turkish provinces.
-    }
-    \achievement{
-        Presented the index and results on an interactive, online map, providing a visual representation of the pandemic's effect on education across Turkey.
-    }
-}
-
-\experience{Cataract Detection using Machine Learning}{Koc University}{Jun 2020}{Jul 2020}{
-    \achievement{
-        Trained a machine learning model with TensorFlow on a dataset of 600 retinal images for cataract detection.
-    }
-    \achievement{
-        Delivered a comprehensive final report and presentation on the project's methodology and findings.
-    }
-}
-
-\experience{NeRF Project at Sabanci University (NERFSU)}{kAi Sabanci}{Sep 2023}{Present}{
-    \achievement{
-        Led an ambitious project to create a detailed 3D digital model of Sabanci University's campus using Neural Radiance Fields (NeRF) and advanced AI/ML algorithms.
-    }
-    \achievement{
-        Analyzed a vast collection of high-resolution photographs from various angles to extract visual details and structural information.
-    }
-    \achievement{
-        Employed the NeRF algorithm to infer the underlying 3D structure, resulting in an immersive and realistic representation of the university for virtual exploration and interactive experiences.
-    }
-}
-
-\experience{Parking Spot Detection}{kAi Sabanci}{Apr 2023}{June 2023}{
-    \achievement{
-        Developed a computer vision-based system for real-time detection and classification of parking spots using deep learning algorithms.
-    }
-    \achievement{
-        Utilized convolutional neural networks (CNNs) and advanced image processing techniques to analyze live video feeds from parking lot cameras.
-    }
-    \achievement{
-        Applied object detection and classification algorithms to accurately identify and track vehicles within the parking premises, aiming to revolutionize parking management and improve overall parking efficiency.
-    }
-}
-
-\experience{ChatSU Implementation}{kAi Sabanci}{Mar 2023}{Present}{
-    \achievement{
-        Implemented ChatSU, a chat generative AI powered by GPT-4, into a website to converse with visitors and respond to their queries using natural language.
-    }
-    \achievement{
-        Integrated the AI system into the website's backend and frontend, allowing for seamless interaction through a chat window.
-    }
-    \achievement{
-        Planned future improvements, including training a text-to-speech model for ChatSU to speak responses and a speech-to-text model to enable voice-based conversations with users.
-    }
-}
+}{}
 
 \section{Skills}
 
 \achievement{
-    \textbf{Languages \& Tools:} \tech{Python}, \tech{Java}, \tech{Javascript}, \tech{HTML/CSS}, \tech{C}, \tech{C++}, \tech{Docker}, \tech{Linux}
+    \textbf{Languages \& Tools:} \tech{Python}, \tech{Java},
+    \tech{Javascript}, \tech{HTML/CSS}, \tech{C}, \tech{C++},
+    \tech{Docker}, \tech{Linux}, \tech{AWS}, \tech{Riva}, \tech{Git}
 }
 \achievement{
-    \textbf{Libraries:} \tech{PyTorch}, \tech{TensorRT}, \tech{JAX},
-    \tech{PyTorch Lightning}, \tech{TensorFlow}, \tech{OpenCV}, \tech{CUDA},
-    \tech{OpenGL}, \tech{NumPy}, \tech{Pandas}, \tech{Keras},
-    \tech{Flask}, \tech{React}
+    \textbf{Libraries:} \tech{PyTorch}, \tech{TensorRT}, \tech{RAPIDS}, \tech{JAX},
+    \tech{cuDNN}, \tech{TensorFlow}, \tech{OpenCV},
+    \tech{CUDA}, \tech{Keras}, \tech{Pandas}, \tech{NumPy}
 }
 
 \end{document}
