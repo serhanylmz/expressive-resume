@@ -52,7 +52,7 @@ Then create a copy of Expressive Resume and open it in VS Code:
 2. Clone your copy of Expressive Resume onto your computer and open it in VS
    Code.
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/expressive-resume.git
+git clone https://github.com/serhanylmz/expressive-resume.git
 cd expressive-resume
 code .
 ```
